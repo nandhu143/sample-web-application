@@ -1,13 +1,13 @@
 
 
-#Build Instruction
+# Build Instruction
 
 
 ```
 mvn clean package
 ```
 
-#Deploy instruction
+# Deploy instruction
 
 Deploy ```target/WebApp.war``` on Tomcat 
 
