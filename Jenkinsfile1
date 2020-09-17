@@ -22,7 +22,7 @@ pipeline{
                   script{
 		  sh 'cp -r ../devops-training@2/target .'
                   sh 'docker build . -t kishornandhu/devops-training:$Docker_tag'
-				  sh 'docker login -u kishornandhu -p '
+				  sh 'docker login -u kishornandhu -p Cape@123'
 				  sh 'docker push kishornandhu/devops-training:$Docker_tag'
                        }
                     }
